@@ -11,8 +11,13 @@ import static org.junit.jupiter.api.Assertions.*;
 //Student Number - 218221630
 
 public class CylinderTest {
-
+    private Cylinder ob1; 
+    private Cylinder ob2; 
+    
     public CylinderTest() {
+        Cylinder ob1 = new Cylinder();
+        Cylinder ob2 = new Cylinder();
+        ob1 = ob2;
     }
 
     @BeforeAll
@@ -29,6 +34,16 @@ public class CylinderTest {
 
     @AfterEach
     public void tearDown() {
+    }
+    
+    @Test 
+    public void testEquality(){
+        assertSame(ob1,ob2);
+    }
+    
+    @Test
+    public void testIdentity(){
+        assertEquals(ob1,ob2);
     }
 
     
