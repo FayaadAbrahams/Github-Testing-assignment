@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package za.ac.cput.shapeform;
 
-/**
- *
- * @author fayaa
- */
+//Student Name - Fayaad Abrahams 
+//Student Number - 218221630
 public class Cylinder {
-    
+
 }
