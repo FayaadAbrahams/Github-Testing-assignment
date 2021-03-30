@@ -1,14 +1,35 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package za.ac.cput.shapeform;
 
-/**
- *
- * @author fayaa
- */
+//Student Name - Fayaad Abrahams 
+//Student Number - 218221630
 public class Cylinder {
-    
+
+    private String radius;
+    private int height;
+
+    public Cylinder() {
+
+    }
+
+    @Override
+    public String toString() {
+        return "The height is: " + height + " and the radius is: " + radius;
+    }
+
+    public String getRadius() {
+        return radius;
+    }
+
+    public void setRadius(String radius) {
+        this.radius = radius;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
 }
