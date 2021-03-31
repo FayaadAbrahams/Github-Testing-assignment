@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package za.ac.cput.shapeforms;
 
 import org.junit.jupiter.api.AfterEach;
@@ -15,8 +10,10 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Timeout;
 
 /**
- *
- * @author tarre
+ * 
+ * @author Tarren-Marc Adams
+ * Student number: 214041794
+ * 
  */
 public class TriangleTest {
     
@@ -79,3 +76,4 @@ public class TriangleTest {
         System.out.println("Been disabled");
     }    
 }
+//end

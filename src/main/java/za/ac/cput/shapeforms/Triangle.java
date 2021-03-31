@@ -1,6 +1,10 @@
-
 package za.ac.cput.shapeforms;
-
+/**
+ * 
+ * @author Tarren-Marc Adams
+ * Student number: 214041794
+ * 
+ */
 public class Triangle {
         private double hight;
     private double base;
@@ -70,3 +74,4 @@ public class Triangle {
     }
     
 }
+//End
