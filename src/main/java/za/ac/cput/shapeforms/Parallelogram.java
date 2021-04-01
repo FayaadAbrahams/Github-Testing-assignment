@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package za.ac.cput.shapeforms;
 
 /**
  *
- * @author thaaqib adams
+ * @author thaaqib adams 220065810
  */
 public class Parallelogram 
-    
 {
-    private String area, perimeter;
+       private String area, perimeter;
 
     public Parallelogram() {
 
@@ -46,6 +46,6 @@ public class Parallelogram
         return "The formular for area for parallelogram is " + area + ", The formular for perimter for paralleogram is " + perimeter + "";
     }
     
+     
     
 }
-

@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package za.ac.cput.shapeforms;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
@@ -14,7 +15,7 @@ import org.junit.jupiter.api.Timeout ;
 import org.junit.jupiter.api.Disabled ;
 /**
  *
- * @author thaaqib adams
+ * @author thaaqib adams 220065810
  */
 public class ParallelogramTest {
     
@@ -73,3 +74,4 @@ public class ParallelogramTest {
     }
     
 }
+
